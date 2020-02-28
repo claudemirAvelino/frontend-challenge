@@ -77,7 +77,7 @@ function UserList() {
           <Container maxWidth="lg">
             <Typography component="div" style={{ backgroundColor: '#24292e', height: '100vh', width: '100%', padding: "25px" }} >
               <form onSubmit={handleSubmit} className={classes.root} noValidate autoComplete="off" style={{backgroundColor: 'white' , height: '95%', padding: '25px'}}>
-                <TextField id="first-name" label="Standard" onChange={e => setFirst_name(e.target.value)} value={first_name}/>
+                <TextField id="first-name" style={{marginTop: '16px'}} label="Standard" onChange={e => setFirst_name(e.target.value)} value={first_name}/>
                 <TextField id="last-name" label="Standard" onChange={e => setLast_name(e.target.value)} value={last_name}/>
                 <TextField id="e-mail" label="Standard" onChange={e => setEmail(e.target.value)} value={email}/>
                 <Button type="submit" variant="contained" color="primary">
